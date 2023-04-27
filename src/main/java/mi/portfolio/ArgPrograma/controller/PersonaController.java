@@ -19,7 +19,8 @@ import org.springframework.web.bind.annotation.RestController;
 //ruta de persona
 @RequestMapping("persona") //localhost:8080/persona/
 //con que/cual se va a cruzar(con angular)
-@CrossOrigin(origins = "http://localhost:4200")
+//@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://portfolio-fe-8cf8a.web.app")
 public class PersonaController {
     
     @Autowired

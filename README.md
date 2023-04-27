@@ -1,1 +1,2 @@
 # ArgPrograma
+git status
